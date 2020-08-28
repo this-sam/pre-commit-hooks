@@ -1,0 +1,6 @@
+-   id: check-forbidden-strings
+    name: Check Forbidden Strings
+    description: This hook fails commits that contain forbidden strings.
+    entry: check-forbidden-strings.sh
+    language: bash
+    types: [text]
